@@ -2,12 +2,15 @@ import React from 'react';
 import Rows from './components/rows';
 import Banner from './components/banner';
 import requests from './helpers/requests';
+import Nav from './components/nav';
+
 import './App.css';
 
 function App() {
 
   return (
     <div className="App">
+      <Nav />
       <Banner />
       <Rows 
       title="Netflix Original" 
