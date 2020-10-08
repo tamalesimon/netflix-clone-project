@@ -1,4 +1,4 @@
-const APIKEY = '878f0ce3ec66d1195594832e981e96c4';
+const APIKEY = ''; //tmdb apikey
 
 const requests = {
     fetchTrending: `/trending/all/week?api_key=${APIKEY}&language=en-US`,
