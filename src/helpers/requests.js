@@ -1,4 +1,4 @@
-const APIKEY = process.env.REACT_APP_NETFLIX_MOVIES_KEY; //tmdb apikey //add your own key here
+const APIKEY = "878f0ce3ec66d1195594832e981e96c4"; //tmdb apikey //add your own key here
 
 const requests = {
     fetchTrending: `/trending/all/week?api_key=${APIKEY}&language=en-US`,
